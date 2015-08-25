@@ -19,7 +19,7 @@ function tc = tc_barMeanAmplitudes(tc, parent, ampType);
 %
 % 07/07 kgs + kw fixed indexing error in selected conditions to ignore
 % baseline condition when plotting betas
-%
+% 08/25/2015 CYC output 
 if notDefined('tc'), tc = get(gcf,'UserData'); end
 if notDefined('parent'), parent = tc.ui.plot; end
 if notDefined('ampType'), ampType = 0; end
